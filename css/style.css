@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .text {
+        font-size: 35px;
+    }
+    .tex {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #333;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .div1 {
+        height: 500px;
+        padding: 10px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+    
+    .tex {
+        font-size: 45px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .div1 {
+        height: 400px;
+        padding: 5px;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+    
+    .tex {
+        font-size: 35px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+
+.div1 {
+    background-image: url(../img/carousel-1.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    padding: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.tex {
+    padding: 5px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px ;
+    flex-direction: row;
+}
+
+.img2 {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.div2 {
+    padding: 40px;
+   
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem 0rem;
+
+    
+}
+
+.text2,
+.text3,
+.text4 {
+    margin: 5px;
+}
+
+.btn {
+    width: 120px;
+    height: 50px;
+    margin: 15px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: darkred;
+}
+
+.text5 {
+    text-align: center;
+    margin: 3rem;
+}
+
+.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.div3 img {
+    width: 100%;
+    max-width: 400px;
+    height: 253px;
+    margin: 0.5rem;
+}
+
+.box {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+}
+
+.box .detail-box {
+    font-size: 18px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.img12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 2rem;
+}
+span{
+    font-size: large;
+}
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.div5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.text34,
+.text35 {
+    text-align: center;
+    margin: 20px;
+    max-width: 600px;
+}
+
+.div4a {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div6 {
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    opacity: 0.9;
+    padding: 20px;
+    gap: 20px;
+}
+
+.text38 {
+    padding: 20px;
+    line-height: 30px;
+}
